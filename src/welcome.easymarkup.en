@@ -1,0 +1,28 @@
+Welcome to the *Portal Explorer* — here you can view all portals shown in my YouTube videos:
+• [What happens if you put a portal in a portal? Simulation and explanation](https://youtu.be/1zgBwQVr-wI)
+• [Portal with 3 parts: is this possible?](https://youtu.be/DTcfaHfDCEc)
+• [Portals with an impossible shape (cylinder, Mobius strip, knot)](https://youtu.be/3z3aC-1MGoE)
+• [Why do portals create pocket dimensions when you put a small portal into a bigger portal?](https://youtu.be/IhEaw3Kuhf0)
+• [Antiportal - what is it and how does it explain pocket dimension?](https://youtu.be/1UsAqvooYj4)
+You can enable russian language in last item of the menu.
+# Scene opening
+To open some scene, use `Load` in the menu and select what you're interested in.
+Here are the most interesting scenes:
+• `Portal in portal` > `Plus ultra` (from the latest video)
+• `Portal in portal` > `Half-spheres`
+• `Portal in portal` > `Ellipse`
+• `Triple portal` > `Triple portal`
+• `Advanced` > `Cylinder`
+• `Advanced` > `Trefoil knot`
+• `Mobius band` > `Mobius portal`
+# Long loading
+If some scenes take too long to load, try this: open `Rendering options` > `Improve compilation speed` (at the bottom). First, try options 1, 2, and 4. If that combination doesn't work, try enabling all four options. After this, scenes should load in a reasonable amount of time. If not, I'm sorry - optimizing further is beyond my abilities. :(
+This issue occurs because scenes use shader code for rendering, and some have very heavy shaders. The GLSL compiler tries to inline everything, eliminating all functions and unrolling all loops, which is why loading can take so long. Macs have a better compiler, so all scenes load almost instantly on them.
+# Opening on a smartphone
+⚠ Attention! If you have weak smartphone, then you shouldn't open most interesting scenes, because your phone can freeze on shader compilation of that scenes, these scenes has very heavy shaders. But if your smartphone can handle it, then some scenes can load for very long time (2 minutes for `Trefoil knot`).
+It's better to orient your phone to horizontal mode.
+Rotating and scaling use standang gestures.
+If you want to zoom in on the interface, you can change it in the menu `Rendering options` > `DPI`, or using a three-finger gesture. If this doesn't work (for example, you have a three-finger system gesture to take a screenshot), then slowly add your fingers one at a time.
+If you have a weak phone, or the demo is just very slow (for example, on a very heavy `Trefoil knot` scene), then you can reduce the resolution of the image through the `Rendering options` > `Lower resolution` option, which will significantly increase FPS. Similarly to the scale, this can be changed through a 4-finger gesture. Also you can lower rendering depth: `Rendering options` > `Render depth`.
+# I have a black screen! What to do?
+Open "Rendering options" and try to disable "Improve compilation speed time", then open any scene from "Load" menu. If problem continues, open developer console and send me the error (there always some problems in shader code).

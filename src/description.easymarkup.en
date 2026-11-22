@@ -1,0 +1,32 @@
+# Description
+*Portal Explorer* — is free web program to explore all kinds of portals. Portal Explorer uses ray-tarcing in shaders to draw content. Also, it contains visual real-time scene editor. You can make your scenes and explore portals together!
+---
+*Version:* 0.2.0
+*Author:* Ilya Sheprut
+*Source:* <https://github.com/optozorax/portal>
+*License:* MIT or Apache 2.0
+---
+# Author
+English:
+[YouTube](https://www.youtube.com/@optozorax_en)
+[Discord](https://discord.gg/Nr3BT4gFEX)
+[Mastodon](https://mathstodon.xyz/@optozorax)
+[GitHub](https://github.com/optozorax)
+Russian:
+[YouTube](https://www.youtube.com/@optozorax)
+[Telegram channel](https://t.me/optozorax_dev)
+[Blog](https://optozorax.github.io)
+---
+# Written using
+Programming language: [Rust](https://www.rust-lang.org)
+Engine: [macroquad](https://github.com/not-fl3/macroquad)
+GUI: [egui](https://github.com/emilk/egui)
+Formulas: [fasteval](https://github.com/likebike/fasteval)
+---
+# Links to used glsl code
+Capsule rendering: [@shadertoy](https://www.shadertoy.com/view/Xt3SzX)
+Panini projection: [@shadertoy](https://www.shadertoy.com/view/Wt3fzB)
+Box intersection: [@shadertoy](https://www.shadertoy.com/view/ld23DV)
+Circle sdf: [@shadertoy](https://www.shadertoy.com/view/slccWf)
+Capsule intersection: [@shadertoy](https://www.shadertoy.com/view/Xt3SzX)
+Cylinder intersection: [@shadertoy](https://www.shadertoy.com/view/4lcSRn)
